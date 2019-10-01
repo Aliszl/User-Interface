@@ -64,9 +64,7 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
-*{
-	box-sizing:border-box;
-}
+
 a{
 	text-decoration: none;
 	color:grey;
@@ -76,59 +74,92 @@ a{
 		 background-color: #COLOR;
 		 border: 1px solid black;
 		 padding: 10px 20px; 	
-}
+		}
 .container{
 	margin:0 auto;
-	width: 800px;
+	width: 900px;
 	padding:16px;
 	border-left-color: 1px solid grey;
 	border-right-color: 1px solid grey;
-}
- header{
-	border:1px solid red;
-}
-.box1{
-	box-sizing: 300px;
+	}
+ /* .top{
+	border:1px solid red; */
+/* } */
+.leftTop{
+	box-sizing: 400px;
 	border:1px solid blue;
-	display: inline-block;
-	vertical-align:right;
+	margin: 0 400 0 0;
+	vertical-align:left;
+	}
+.innovation{
+	font-size:50px;
+	}
+.on{
+	font-size:50px;
+	position: center;
+	}
+.demand{
+	font-size:50px;
+	}
+.iod{
+	width:300px;
+	border:1px solid yellow;
+	margin:30px;
+	float:left;
+	}
+.button{
+	border: 1px dotted red;
+	margin: 40px;
+	
 }
 	
-.box2{
-	box-sizing: 300px;
+.rightTop{
+	box-sizing: 400px;
 	border:1px solid green;
-	margin: 0 0 0 200px;
+	margin: 0 0 0 480px;
 	vertical-align: left;
 	
 }
-.bodybox{
+.leftMiddle{
 	border:1px solid red;
+	width:400px;
+	float:left;
 	
 }
-.box3{
+.rightmiddle{
 	border:1px solid red;
+	width:400px;
+	padding: 40px;
 	float: right;
-	float:left;
+	
 }
 
-.box4{
+.middle-img{
 	border:1px solid red;
 	float:right;
+	
 }
-.maincontent{
- border-top-color: black
+.leftbottom{
+ border-top-color: black;
+ width:300px;
+ padding: 40px;
+ float: left;
 
 }
-.featuresabout{
+.middlebottom{
 	width:300px;
 	height:300px;
 	border: 1px dotted grey;
+	position: center;
 }
-.features{
+.rightbottom{
 border:1px solid grey;
-float:left;
-}
-.about{
+width:300px;
+	padding: 40px;
+	float: right;
+}<br/>
+.contact{
 	border:1px solid pink;
 	float:right;
+	width:100px;
 }
