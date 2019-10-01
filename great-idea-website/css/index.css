@@ -64,3 +64,71 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+*{
+	box-sizing:border-box;
+}
+a{
+	text-decoration: none;
+	color:grey;
+	margin:0 20px;
+}
+.button{
+		 background-color: #COLOR;
+		 border: 1px solid black;
+		 padding: 10px 20px; 	
+}
+.container{
+	margin:0 auto;
+	width: 800px;
+	padding:16px;
+	border-left-color: 1px solid grey;
+	border-right-color: 1px solid grey;
+}
+ header{
+	border:1px solid red;
+}
+.box1{
+	box-sizing: 300px;
+	border:1px solid blue;
+	display: inline-block;
+	vertical-align:right;
+}
+	
+.box2{
+	box-sizing: 300px;
+	border:1px solid green;
+	margin: 0 0 0 200px;
+	vertical-align: left;
+	
+}
+.bodybox{
+	border:1px solid red;
+	
+}
+.box3{
+	border:1px solid red;
+	float: right;
+	float:left;
+}
+
+.box4{
+	border:1px solid red;
+	float:right;
+}
+.maincontent{
+ border-top-color: black
+
+}
+.featuresabout{
+	width:300px;
+	height:300px;
+	border: 1px dotted grey;
+}
+.features{
+border:1px solid grey;
+float:left;
+}
+.about{
+	border:1px solid pink;
+	float:right;
+}
